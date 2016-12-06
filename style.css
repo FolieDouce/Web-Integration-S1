@@ -1,0 +1,349 @@
+* 
+{
+	padding:0px;
+	margin:0px;
+}
+
+/*fond*/
+
+body 
+{
+	background-image:url("../images/bg.jpg");
+}
+
+#bg 
+{
+	background-image:url("../images/shadow.png");
+	background-repeat: repeat-x;
+	overflow:hidden;
+}
+
+/*logo Choca-Choki en haut à gauche*/
+
+#logo 
+{
+	font-family:lobster;
+	float:left;
+	margin-left:21%;
+	font-size:120%;
+	margin-top:2%;
+}
+
+#logo a
+{
+	color:white;
+	text-decoration:none;
+}
+
+#logo a:hover 
+{
+	opacity:0.4;
+}
+
+/*Menu en haut à droite*/
+
+#nav li 
+{
+	list-style-type:none;
+	margin-left:50%;
+	font-family:"arvo";
+}
+
+#nav li  a 
+{
+	text-decoration:none;
+	color:white;
+	float:left;
+	padding-left:3%;
+	padding-top:4.5%;
+}
+
+#nav li a:hover 
+{
+	opacity:0.4;
+}
+
+#nav li  a, #logo
+{
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+.clear 
+{
+	clear:left;
+}
+
+
+h2
+{
+	margin-left:4%;
+}
+
+p 
+{
+	color:grey;
+}
+
+strong
+{
+	color:black;
+}
+
+
+/*La barre latérale*/
+
+#sidebar
+{
+	float:left;
+	border:solid black 1px;
+	background-color:#32251b;
+	background-repeat:no-repeat;
+	background-size:100% 700%;
+	width:12%;
+	padding-left:2%;
+	padding-right:2%;
+	margin-left:18%;
+	margin-top:1%;
+	color:white;
+}
+
+#sidebar p 
+{
+	color:#CEB698;
+}
+
+#sidebar h3
+{
+	 font-family:"arvo";
+	 font-size:100%;
+	 padding-bottom:10%;	
+	 padding-top:15%;
+}
+
+#sidebar .linkedList
+{
+	list-style-type:none;
+	margin:0 ; 
+	padding :0;
+}
+
+#sidebar .linkedList li 
+
+{
+	padding-bottom:10%;
+	padding-top:10%;
+	border-bottom: dotted 1px grey;
+}
+
+#sidebar .linkedList .last
+{
+	border: 0px;
+	margin-bottom:35%;
+}
+
+#sidebar .linkedList a
+{
+	color:white;
+}
+
+#sidebar .linkedList a:hover
+{
+opacity:0.4;
+}
+
+/*Bloc Blanc*/
+
+#content 
+{
+	background-color:white;
+	border:solid 1px black;
+	float:left;
+	margin-left:3%;
+	width:45%;
+	margin-top:1%;
+	margin-bottom:4%;
+}
+
+
+#content h3
+{
+padding-top:15%;
+padding-bottom:10%;
+}
+
+
+/*partie haute du bloc blanc contenant "bienvenue sur Choca-Choki", l'image et le texte de description*/
+
+#box1 a 
+{
+	color:black;
+}
+
+
+#box1 a:hover
+{
+	opacity:0.4;
+}
+
+#box1 .left
+{
+	float:left;
+	margin-left:4%
+}
+
+#box1 p 
+{
+	float:left;
+	width:71%;
+	margin-left:5%;
+}
+
+#box1 h2 
+{
+	margin-top:4%;
+	margin-bottom:4%;
+	font-family:"arvo";
+}
+
+
+/*le bloc en bas à gauche*/
+
+#box2 {
+	clear:left;
+	float:left;
+	width:47%;
+}
+
+#box2 ul li {
+padding-right:10%;
+}	
+
+#box2 li{
+color:gray;
+}
+
+#box2 .imageList
+{
+	list-style-type:none;
+}
+
+#box2 .imageList li 
+{
+	border-top: dotted 1px grey; 
+	padding-top:4%;
+	padding-bottom:4%;
+	margin-left:9%;
+	
+}
+
+#box2 h3
+{
+	font-family:arvo;
+}
+
+
+
+span
+{
+	float:right;
+	width:60%;
+	padding-left:3%;
+}
+
+
+#box2 .imageList .first 
+{
+	border-style:none;
+}
+
+#box2 .imageList
+{
+	margin:0;
+	padding:0;
+}
+
+#box2 h3 
+{
+	padding-left:8%;
+}
+
+/*le bloc en bas à droite*/
+
+#box3
+{
+	margin-left:2%;
+}
+
+#box3 h3
+{
+	font-family:arvo;
+}
+
+#box3 .linkedList
+{
+	list-style-type:none;
+	
+}
+
+
+#box3 .linkedList .last
+{
+	border: 0px;
+}
+
+#box3 .linkedList li 
+
+{
+	padding-bottom:6%;
+	padding-top:6%;
+	border-bottom: dotted 1px grey;
+	width:90%;
+}
+
+#box3{
+	padding-bottom:7%;
+}
+
+
+#box3 .linkedList a 
+{
+	color:black;
+	text-decoration:none;
+}
+
+#box3 .linkedList a:hover
+{
+	opacity:0.4;
+}
+
+#box3 {
+	float:right;
+	width:47%;
+	padding-right:4%;
+}
+
+#box3 p
+{
+	padding-top:3%;
+	padding-right:30%;
+}
+
+
+/*Copyright*/
+
+#copyright
+{
+	text-align:center;
+	padding-bottom:4%;
+	color:#d8c2a6;
+}
+
+#copyright a
+{
+	color:#d8c2a6;
+}
+
+#copyright a:hover{
+	color:white;
+}
